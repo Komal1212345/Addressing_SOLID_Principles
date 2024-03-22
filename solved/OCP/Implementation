@@ -1,0 +1,3 @@
+In this refactored version, the DiscountCalculator class is refactored into an interface DiscountStrategy
+and two concrete implementations PercentageDiscountStrategy and FixedDiscountStrategy, adhering to the 
+Open/Closed Principle. Now, new discount strategies can be added without modifying the existing code.
