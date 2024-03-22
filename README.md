@@ -2,6 +2,11 @@
 
 # Documentation:
 
+# Use Case: Online Shopping Platform
+# Description:
+Consider an online shopping platform where users can browse products, add them to their cart, and place orders. The platform offers various discounts based on product types and order totals. Users need to authenticate themselves before making a purchase.
+
+# Scenerio: 
 # Single Responsibility Principle (SRP):
 The Single Responsibility Principle (SRP) states that a class should have only one reason to change, meaning it should have only one responsibility. 
 In the Violated Folder, the "UserAuthenticationAndOrderProcessing" class violates SRP as it handles both user authentication and order processing functionalities within a single class. This violates SRP because the class has multiple reasons to change - if either the user authentication logic or the order processing logic needs to be modified, the class would need to be altered.
