@@ -1,0 +1,4 @@
+In this refactored version, the violation of Liskov Substitution Principle is addressed
+by redesigning the class hierarchy. Instead of Square inheriting from Rectangle, both 
+classes implement a common interface Shape. Now, a Square can be substituted for a
+Rectangle without affecting the correctness of the program, satisfying LSP.
